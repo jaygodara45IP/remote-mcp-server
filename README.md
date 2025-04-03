@@ -5,10 +5,13 @@ A simple guide to set up and run the FastAPI server locally and using Docker.
 ## 🔧 Setup (Without Docker)  
 ```sh
 # Clone the repository
-git clone <repo_url>
+git clonehttps://github.com/jaygodara45IP/remote-mcp-server.git
 
 # Move into the project directory
-cd <repo_name>
+cd remote-mcp-server
+
+# Move to branch: fastmcp-pip
+git checkout fastmcp-pip
 
 # Create and activate a virtual environment
 python -m venv env
@@ -27,10 +30,10 @@ uvicorn app.main:app --reload
 ## 🐳 Setup (Using Docker)  
 ```sh
 # Clone the repository
-git clone <repo_url>
+git clone https://github.com/jaygodara45IP/remote-mcp-server.git
 
 # Move into the project directory
-cd <repo_name>
+cd remote-mcp-server
 
 # Copy environment variables
 cp .env.local .env
